@@ -1,0 +1,15 @@
+.main__link {
+  white-space: nowrap;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #7E7E82;
+}
+
+.main__link--highlighted {
+  background-color: #fff;
+  border: 2px #B8FFEC solid;
+  border-radius: 6px;
+}

@@ -1,0 +1,14 @@
+.button--type--settings {
+  background-image: url(../../../../images/icon_settings.svg);
+}
+
+.button--type--settings::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: calc(50% - 16px);
+  left: -22px;
+  width: 2px;
+  height: 32px;
+  background-color: #EAEAEA;
+}

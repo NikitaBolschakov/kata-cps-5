@@ -1,0 +1,17 @@
+.main__text-box {
+  overflow: hidden;
+  height: 90px;
+}
+
+@media (min-width: 768px) {
+  .main__text-box {
+    width: 312px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .main__text-box {
+    width: 490px;
+  }
+}

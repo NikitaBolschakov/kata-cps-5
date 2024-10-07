@@ -1,0 +1,16 @@
+.button--type--burger {
+  background-image: url(../../../../images/icon_menu_burger.svg);
+}
+
+@media (min-width: 768px) {
+  .button--type--burger::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 16px);
+    left: 60px;
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+  }
+}

@@ -1,0 +1,12 @@
+.main__about {
+  display: block;
+  margin: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .main__about {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+  }
+}

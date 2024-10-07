@@ -1,0 +1,26 @@
+.main__list {
+  display: flex;
+  align-items: center;
+  margin: 24px 16px;
+  height: 40px;
+  min-width: min-content;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media (min-width: 768px) {
+  .main__list {
+    margin: 32px 24px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .main__list {
+    flex-wrap: wrap;
+    margin: 8px 24px;
+    min-height: 74px;
+  }
+}
+
+
+

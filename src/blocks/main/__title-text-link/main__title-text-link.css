@@ -1,0 +1,6 @@
+@media (min-width: 1120px) {
+  .main__title-text-link {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,11 @@
+.main__title-item {
+  display: none;
+}
+
+@media (min-width: 1120px) {
+  .main__title-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

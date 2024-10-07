@@ -1,0 +1,33 @@
+.main__nav {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.main__nav::-webkit-scrollbar {
+  height: 0;
+}
+
+.main__nav::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 40px;
+  background: linear-gradient(to left, #F8F8F8, rgba(0, 0, 0, 0));
+  position: fixed;
+  top: 176px;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .main__nav::before {
+    top: 184px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .main__nav::before {
+    display: none;
+  }
+}

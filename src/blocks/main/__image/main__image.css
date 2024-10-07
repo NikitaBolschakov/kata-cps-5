@@ -1,0 +1,17 @@
+.main__image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main__image {
+    width: 360px;
+    height: 208px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .main__image {
+    width: 531px;
+    height: 307px;
+  }
+}

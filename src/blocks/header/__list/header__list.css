@@ -1,0 +1,13 @@
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  width: 96px;
+}
+
+@media (min-width: 768px) {
+  .header__list {
+    display: flex;
+    justify-content: space-between;
+    width: 264px;
+  }
+}

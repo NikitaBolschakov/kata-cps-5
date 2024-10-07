@@ -1,0 +1,6 @@
+@media (min-width: 1120px) {
+  .main__title-text-button {
+    font-weight: 500;
+    letter-spacing: -0.2px;
+  }
+}

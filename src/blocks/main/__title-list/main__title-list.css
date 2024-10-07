@@ -1,0 +1,12 @@
+.main__title-list {
+  display: none;
+}
+
+@media (min-width: 1120px) {
+  .main__title-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 402px;
+  }
+}

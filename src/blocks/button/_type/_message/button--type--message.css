@@ -1,0 +1,11 @@
+.button--type--message {
+  background-image: url(../../../../images/icon_message.svg);
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .button--type--message {
+    display: block;
+    margin-right: 16px;
+  }
+}

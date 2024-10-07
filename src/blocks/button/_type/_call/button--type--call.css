@@ -1,0 +1,11 @@
+.button--type--call {
+  background-image: url(../../../../images/icon_call.svg);
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .button--type--call {
+    display: block;
+    margin-right: 16px;
+  }
+}
