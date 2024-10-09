@@ -29,6 +29,15 @@
 @import url(../blocks/button/_type/_search/button--type--search.css);
 @import url(../blocks/button/_type/_settings-1120/button--type--settings-1120.css);
 @import url(../blocks/button/_type/_search-1120/button--type--search-1120.css);
+@import url(../blocks/button/_type/_call-sb/button--type--call-sb.css);
+@import url(../blocks/button/_type/_message-sb/button--type--message-sb.css);
+@import url(../blocks/button/_type/_profile-sb/button--type--profile-sb.css);
+
+
+
+@import url(../blocks/button/_type/_exit/button__type--exit.css);
+@import url(../blocks/button/_type/_search-sidebar/button--type--search-sidebar.css);
+
 
 @import url(../blocks/main/__about/main__about.css);
 @import url(../blocks/main/__image/main__image.css);
@@ -44,3 +53,16 @@
 @import url(../blocks/main/__title-item/main__title-item.css);
 @import url(../blocks/main/__title-text-button/main__title-text-button.css);
 @import url(../blocks/main/__title-text-link/main__title-text-link.css);
+
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__contacts/sidebar__contacts.css);
+@import url(../blocks/sidebar/__footer/sidebar__footer.css);
+@import url(../blocks/sidebar/__header/sidebar__header.css);
+@import url(../blocks/sidebar/__item/sidebar__item.css);
+@import url(../blocks/sidebar/__lang/sidebar__lang.css);
+@import url(../blocks/sidebar/__mail/sidebar__mail.css);
+@import url(../blocks/sidebar/__nav-list/sidebar__nav-list.css);
+@import url(../blocks/sidebar/__nav/sidebar__nav.css);
+@import url(../blocks/sidebar/__tel/sidebar__tel.css);
+@import url(../blocks/sidebar/__logo/sidebar__logo.css);
+@import url(../blocks/sidebar/__lang-item/sidebar__lang-item.css);

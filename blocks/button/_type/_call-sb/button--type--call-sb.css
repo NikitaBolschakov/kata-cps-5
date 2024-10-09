@@ -1,0 +1,11 @@
+.button--type--call-sb {
+  background-image: url(../../../../images/icon_call.svg);
+  opacity: 1;
+  transition: all 0.2s ease-out;
+}
+
+.button--type--call-sb:hover {
+opacity: 0.8;
+transition: all 0.2s ease-in-out;
+transform: scale(1.05);
+}

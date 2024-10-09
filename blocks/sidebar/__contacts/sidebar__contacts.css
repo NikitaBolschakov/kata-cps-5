@@ -1,0 +1,5 @@
+.sidebar__contacts {
+  display: flex;
+  margin: 268px auto 18px 24px;
+  gap: 16px;
+}
