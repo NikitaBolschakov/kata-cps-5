@@ -1,0 +1,10 @@
+.button--type--search-sidebar {
+  background-image: url(../../../../images/icon_search-sidebar.svg);
+  opacity: 1;
+  transition: all 0.2s ease-out ;
+}
+
+.button--type--search-sidebar:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}

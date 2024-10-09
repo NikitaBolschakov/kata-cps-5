@@ -1,0 +1,13 @@
+.button--type--exit {
+  background-image: url(../../../../images/icon_exit.svg);
+
+  transform: rotate(-90deg);
+  opacity: 1;
+  transition: all 0.4s ease-out;
+}
+
+.button--type--exit:hover {
+  opacity: 0.8;
+  transform: rotate(90deg);
+  transition: all 0.4s ease-in-out;
+}
