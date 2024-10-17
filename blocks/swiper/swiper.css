@@ -1,0 +1,68 @@
+.swiper {
+  min-width: 320px;
+  min-height: 120px;
+}
+
+.swiper-slide {
+  min-height: 72px;
+}
+
+.swiper-slide__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  height: 72px;
+  margin: 16px 0;
+
+  padding: 0 16px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.swiper-slide__container:first-child {
+  margin-left: 16px;
+}
+
+.swiper-wrapper {
+  position: relative; 
+}
+
+.swiper__gradient {
+  position: fixed;
+  width: 24px;
+  height: 72px;
+  background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  top: 96px;
+  right: 0;
+  z-index: 10;
+}
+
+.swiper-slide__btn {
+  background-image: url(../../images/brand_btn.svg);
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+span.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(221, 221, 221, 1);
+  opacity: 1;
+}
+
+div.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 6px;
+}
+
+div.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom, .swiper-pagination-fraction {
+  top: 102px;
+}
+
+span.swiper-pagination-bullet-active {
+  background: rgba(181, 182, 188, 1);
+}
