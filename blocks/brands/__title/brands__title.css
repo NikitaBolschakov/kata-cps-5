@@ -1,0 +1,17 @@
+.brands__title {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: rgba(126, 126, 130, 1);
+  text-transform: uppercase;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .brands__title {
+    padding-left: 24px;
+    letter-spacing: -0.3px;
+  }
+}

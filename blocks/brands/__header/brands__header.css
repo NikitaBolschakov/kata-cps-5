@@ -1,0 +1,10 @@
+.brands__header {
+  height: 80px;
+  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+}
+
+@media (min-width: 768px) {
+  .brands__header {
+    height: 56px;
+  }
+}
