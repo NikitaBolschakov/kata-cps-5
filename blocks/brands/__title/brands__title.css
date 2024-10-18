@@ -8,3 +8,10 @@
   text-transform: uppercase;
   padding: 16px;
 }
+
+@media (min-width: 768px) {
+  .brands__title {
+    padding-left: 24px;
+    letter-spacing: -0.3px;
+  }
+}

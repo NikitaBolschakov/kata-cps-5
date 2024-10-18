@@ -8,8 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-
-    <title>CPS</title>
+    <title>CPS-kata</title>
   </head>
   <body class="page">
     <aside class="sidebar" style="display: none">
@@ -47,7 +46,6 @@
         </ul>
       </footer>
     </aside>
-
     <header class="header" style="display: none">
       <div class="header__burger-container">
         <button class="button button--type--burger"></button>
@@ -73,7 +71,6 @@
         </ul>
       </nav>
     </header>
-
     <main class="main" style="display: none">
       <div class="main__title-container">
         <h1 class="main__title">Услуги и сервисы</h1>
@@ -151,10 +148,11 @@
           <!-- Additional required wrapper -->
           <div class="swiper__gradient"></div>
           <div class="swiper-wrapper">
-            
             <!-- Slides -->
             <div class="swiper-slide">
-              <div class="swiper-slide__container">
+              <div
+                class="swiper-slide__container swiper-slide__container--first"
+              >
                 <img
                   src="images/lenovo.svg"
                   alt="lenovo"
@@ -243,7 +241,65 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
-      <!-- <button class="brands__show-more">Показать все</button> -->
+        <div class="brands__grid">
+          <div class="swiper-slide__container">
+            <img
+              src="images/lenovo.svg"
+              alt="lenovo"
+              class="swiper-slide__img"
+            />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/aser.svg" alt="aser" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/sony.svg" alt="sony" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/hp.svg" alt="hp" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/apple.svg" alt="apple" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/bosch.svg" alt="bosch" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img
+              src="images/samsung.svg"
+              alt="samsung"
+              class="swiper-slide__img"
+            />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/sony.svg" alt="sony" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img
+              src="images/viewsonic.svg"
+              alt="sonic"
+              class="swiper-slide__img"
+            />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/sony.svg" alt="sony" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+          <div class="swiper-slide__container">
+            <img src="images/hp.svg" alt="hp" class="swiper-slide__img" />
+            <button class="swiper-slide__btn"></button>
+          </div>
+        </div>
+        <button class="button_type_read-more">Показать все</button>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="index.js"></script>

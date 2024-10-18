@@ -1,0 +1,31 @@
+.brands__grid {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .brands__grid {
+    display: grid;
+    grid-template-columns: 224px 224px 224px;
+    gap: 16px 24px;
+    margin: 24px auto 24px 24px;
+    overflow: hidden;
+    height: 162px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .brands__grid {
+    grid-template-columns: repeat(4, 240px);
+    gap: 16px 32px;
+    margin: 24px auto 24px 24px;
+    overflow: hidden;
+    height: 162px;
+  }
+}
+
+
+/* modificator */
+.brands__grid--show {
+  overflow: visible;
+  height: max-content;
+}
