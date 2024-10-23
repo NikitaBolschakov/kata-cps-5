@@ -10,6 +10,7 @@
     margin: 24px auto 24px 24px;
     overflow: hidden;
     height: 162px;
+    transition: all 1s;
   }
 }
 
@@ -20,10 +21,6 @@
     margin: 24px auto 24px 24px;
     overflow: hidden;
     height: 162px;
+    transition: all 1s;
   }
-}
-
-.brands__grid--show {
-  overflow: visible;
-  height: max-content;
 }
