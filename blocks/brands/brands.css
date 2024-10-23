@@ -2,3 +2,28 @@
   min-width: 320px;
 }
 
+@media (min-width: 768px) {
+  .brands .brands__grid {
+    display: grid;
+    grid-template-columns: 224px 224px 224px;
+    gap: 16px 24px;
+    margin: 24px auto 24px 24px;
+    overflow: hidden;
+    height: 162px;
+  }
+}
+@media (min-width: 1120px) {
+  .brands .brands__grid {
+    grid-template-columns: repeat(4, 240px);
+    gap: 16px 32px;
+    margin: 24px auto 24px 24px;
+    overflow: hidden;
+    height: 162px;
+  }
+}
+
+.brands .brands__grid--show {
+  overflow: visible;
+  height: -moz-max-content;
+  height: max-content;
+}
